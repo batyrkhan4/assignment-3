@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class KruksalMST {
+public class KruskalMST {
     public static MSTResult findMST(Graph graph) {
         long startTime = System.nanoTime();
         int operationsCount = 0;

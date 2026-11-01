@@ -25,7 +25,7 @@ public class Graph {
         allEdges.add(edge);
 
         if (!isDirected) {
-            adjList.get(destination).add(new Edge(source, destination, weight));
+            adjList.get(destination).add(new Edge(destination, source, weight));
         }
     }
 
